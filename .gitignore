@@ -1,0 +1,43 @@
+# Exclude IntelliJ IDEA metadata
+
+**/.idea/
+**/*.iml
+
+# Exclude Eclipse metadata
+
+.classpath
+**/.project
+**/.settings
+.factorypath
+
+# Exclude MacOS X metadata
+
+**/.DS_Store
+
+# Exclude Maven working data
+
+**/.flattened-pom.xml
+**/dependency-reduced-pom.xml
+**/target/
+
+# Exclude NPM working data
+
+**/node_modules/
+
+# Exclude Docker working data
+
+docker/vault/config/core
+docker/vault/config/logical
+docker/vault/config/sys
+
+# Exclude log files
+
+**/*.log
+**/log/
+**/logs/
+**/build-logs/
+
+# Exclude vscode metadata
+**/.vscode
+
+out/**/*

@@ -1,0 +1,7 @@
+{
+"mavenComponents": ["./"],
+"npmComponents": [],
+"pomLocationDirectory": "./",
+"additionalFilesToGitAdd": []
+}
+
